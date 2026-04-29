@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "pipeline: escolher projeto",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["config/${input:projeto}.yaml"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "pipeline: gravatai_p96",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["config/gravatai_p96.yaml"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+  ],
+  "inputs": [
+    {
+      "id": "projeto",
+      "type": "promptString",
+      "description": "Nome do projeto (deve existir em config/<nome>.yaml)",
+      "default": "gravatai_p96"
+    }
+  ]
+}

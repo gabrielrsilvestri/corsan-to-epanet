@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m src.reader config/gravatai_p96.yaml)",
+      "Bash(python3 -m src.reader config/gravatai_p96.yaml)",
+      "Bash(where py *)",
+      "Bash(where python3.11)",
+      "Bash(where python3.12)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/Gabriel/AppData/Local/Programs/Python/**)",
+      "Bash(/c/Users/Gabriel/AppData/Local/Programs/Python/Python314/python.exe -m src.reader config/gravatai_p96.yaml)",
+      "Bash(/c/Users/Gabriel/AppData/Local/Programs/Python/Python314/python.exe -)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

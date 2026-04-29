@@ -1,0 +1,17 @@
+projeto_nome: "Gravataí Parada 95"
+
+csv_path: "data/gravatai_p95/pressure_fittings.csv"
+xlsx_path: "data/gravatai_p95/AGUA-DIM-REDE_PD95_VP_R04.xlsx"
+sheet_name: null          # null = primeira aba ativa
+data_start_row: 13
+col_offset: 1        # coluna A vazia; dados começam na B
+reservoir_id: "PT"
+
+output_json: "data/gravatai_p95/rede_agua.json"
+output_inp: "output/gravatai_p95/gravatai_p95.inp"
+
+meta_cells:
+  N_economias:    [5, 13]   # M5
+  C_HW:           [6, 13]   # M6
+  Q_unit_ls:      [7, 13]   # M7
+  pressao_PT_mca: [8, 13]   # M8

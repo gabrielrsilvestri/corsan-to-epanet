@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Dados de projeto (não versionar planilhas e dados sensíveis)
+data/
+output/
+
+# VS
+.vs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
